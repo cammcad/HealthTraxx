@@ -1,0 +1,14 @@
+' Flow Diagram as code https://plantuml.com/
+
+@startuml
+
+box "Public API" #LightBlue
+	participant Bob
+	participant Alice
+end box
+participant Other
+
+Bob -> Alice : hello
+Alice -> Other : hello
+
+@enduml
